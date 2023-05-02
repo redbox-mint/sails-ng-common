@@ -1,0 +1,35 @@
+{
+  "name": "@researchdatabox/sails-ng-common",
+  "version": "0.1.0",
+  "description": "Common models, etc.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redbox-mint/sails-ng-common.git"
+  },
+  "keywords": [
+    "redbox",
+    "research",
+    "research",
+    "data",
+    "management",
+    "planning"
+  ],
+  "author": "QCIF Engineering",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/redbox-mint/sails-ng-common/issues"
+  },
+  "homepage": "https://github.com/redbox-mint/sails-ng-common#readme",
+  "devDependencies": {
+    "@tsconfig/node18": "^2.0.0",
+    "typescript": "^5.0.3"
+  }
+}
