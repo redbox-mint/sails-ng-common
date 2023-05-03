@@ -1,7 +1,7 @@
 {
   "name": "@researchdatabox/sails-ng-common",
   "version": "0.1.0",
-  "description": "Common models, etc.",
+  "description": "Common models shared between Sails API endpoints and client-side Angular code",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
