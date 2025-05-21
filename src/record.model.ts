@@ -21,15 +21,27 @@
  * Defines the property/column rendering configuration
  */
 export interface RecordPropViewMetaDto {
-  // control visibility - warning breaking change, used to be called 'show'
-  hide: boolean; 
-  // if set, will run this against _.template
+  /**
+   * control visibility
+   *
+   * warning breaking change, used to be called 'show'
+   */
+  hide: boolean;
+  /**
+   * if set, will run this against _.template
+   */
   template: string;
-  // the property/variable name
+  /**
+   * the property/variable name
+   */
   property: string;
-  // the column header
+  /**
+   * the column header
+   */
   label: string;
-  // whether to expect the property to be multi-valued
+  /**
+   * whether to expect the property to be multi-valued
+   */
   multivalue: boolean;
 }
 
@@ -37,8 +49,7 @@ export interface RecordPropViewMetaDto {
  * Model for each page of records
  */
 export interface RecordPageDto {
-  records: any[];
+  records: unknown[];
   total: number;
   pageNum: number;
 }
-
