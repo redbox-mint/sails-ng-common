@@ -4,9 +4,9 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-    target-branch: "feature/ng19-forms_introduce-validation"
+    target-branch: "develop"
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
-    target-branch: "feature/ng19-forms_introduce-validation"
+    target-branch: "develop"
