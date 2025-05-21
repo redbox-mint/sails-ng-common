@@ -4,7 +4,7 @@ export interface ReportFilterDto {
   type: string;
   paramName: string;
   message: string;
-  property:string;
+  property: string;
 }
 
 export class ReportDto {
@@ -14,9 +14,9 @@ export class ReportDto {
   filter: ReportFilterDto[];
   columns: RecordPropViewMetaDto[];
   constructor() {
-    this.title = '';
-    this.name = '';
-    this.solrQuery = '';
+    this.title = "";
+    this.name = "";
+    this.solrQuery = "";
     this.filter = [];
     this.columns = [];
   }
