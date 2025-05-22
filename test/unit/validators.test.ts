@@ -1,12 +1,15 @@
-import { ValidatorsSupport } from "../../src/validation/validators-support";
-import { FormValidatorBlock, FormValidatorControl, FormValidatorDefinition, FormValidatorErrors } from "../../src";
 import {
+  FormValidatorBlock,
+  FormValidatorControl,
+  FormValidatorDefinition,
+  FormValidatorErrors,
   formValidatorGetDefinitionBoolean,
   formValidatorGetDefinitionItem,
   formValidatorGetDefinitionNumber,
   formValidatorGetDefinitionString,
   formValidatorLengthOrSize,
-} from "../../src/validation/helpers";
+  ValidatorsSupport,
+} from "../../src";
 
 const exampleValidatorDefinitions: FormValidatorDefinition[] = [
   {
